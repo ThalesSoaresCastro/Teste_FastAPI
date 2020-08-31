@@ -23,6 +23,4 @@ def verify_unique_elements(item: Item):
     N = item.input[0]
     list_K =item.input[1:len(item.input)]
 
-    print(alg.unique_elements(list_K, N))
-
     return {"output":alg.unique_elements(list_K, N)}
